@@ -1,0 +1,31 @@
+[buildPlans.IosevkaWideXWin]
+family = "Iosevka Custom"
+spacing = "term"
+serifs = "sans"
+noCvSs = false
+exportGlyphNames = true
+
+  [buildPlans.IosevkaWideXWin.variants]
+  inherits = "ss11"
+
+    [buildPlans.IosevkaWideXWin.variants.design]
+    tilde = "low"
+
+    [buildPlans.IosevkaWideXWin.variants.italic]
+    tilde = "low"
+
+    [buildPlans.IosevkaWideXWin.variants.oblique]
+    tilde = "low"
+
+  [buildPlans.IosevkaWideXWin.ligations]
+  inherits = "haskell"
+
+[buildPlans.IosevkaWideXWin.widths.Condensed]
+shape = 500
+menu = 3
+css = "condensed"
+
+[buildPlans.IosevkaWideXWin.widths.Normal]
+shape = 600
+menu = 5
+css = "normal"
